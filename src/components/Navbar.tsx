@@ -102,15 +102,7 @@ export function Navbar({ activeTab, onNavigate }: NavbarProps) {
               </button>
             );
           })}
-          <div className="pt-2 border-t border-slate-100">
-            <button
-              type="button"
-              onClick={() => handleSelect('contact')}
-              className="w-full py-2.5 px-4 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-500 rounded-lg transition-colors cursor-pointer min-h-[44px]"
-            >
-              Request Quote
-            </button>
-          </div>
+
         </div>
       )}
     </header>
