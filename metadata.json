@@ -1,0 +1,6 @@
+{
+  "name": "Fortune Overseas",
+  "description": "Global import and export trading house in Thatwade, Pimpri-Chinchwad, Pune 411033 supplying basmati rice, whole spices, precision brass valves, organic cotton yarn, and dehydrated ingredients.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
