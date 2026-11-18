@@ -72,14 +72,6 @@ export function Navbar({ activeTab, onNavigate }: NavbarProps) {
         <div className="flex items-center gap-3 shrink-0">
           <button
             type="button"
-            onClick={() => handleSelect('contact')}
-            className="hidden sm:inline-flex items-center justify-center px-4 py-2 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-500 rounded-lg transition-colors duration-150 whitespace-nowrap shrink-0 cursor-pointer min-h-[40px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2"
-          >
-            Request Quote
-          </button>
-
-          <button
-            type="button"
             onClick={() => setMobileOpen((prev) => !prev)}
             aria-expanded={mobileOpen}
             aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'}
