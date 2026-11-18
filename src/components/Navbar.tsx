@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Globe2, Menu, X } from 'lucide-react';
 import { COMPANY_INFO, TabId } from '../data/catalog';
 
 interface NavbarProps {
@@ -32,9 +32,15 @@ export function Navbar({ activeTab, onNavigate }: NavbarProps) {
             e.preventDefault();
             handleSelect('home');
           }}
-          className="font-display text-lg font-bold tracking-tight text-white whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
+          className="flex items-center gap-2.5 font-display text-lg font-bold tracking-tight text-white whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded"
         >
-          {COMPANY_INFO.brandName}
+          <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-600 shrink-0">
+            <Globe2 className="w-5 h-5 text-white" />
+          </span>
+          <span className="relative uppercase tracking-widest text-sm">
+            {COMPANY_INFO.brandName}
+            <span className="absolute -top-1.5 -right-3 text-yellow-400 animate-pulse">✦</span>
+          </span>
         </a>
 
         {/* Zone 2: 4 concise single-line text navigation tabs */}
