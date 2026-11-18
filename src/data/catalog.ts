@@ -38,6 +38,16 @@ export const ABOUT_IMAGE = {
   alt: 'Organized export inspection center and palletized shipping crates at Fortune Overseas logistics partner facility',
 };
 
+export const HERO_BG_IMAGE = {
+  src: '/src/assets/images/aerial-view-cargo-ship-cargo-container-harbor.jpg',
+  alt: 'Aerial view of cargo ship and containers in harbor',
+};
+
+export const ABOUT_BG_IMAGE = {
+  src: '/src/assets/images/international-container-cargo-ship-harborfreight-transportation-shipping-ai-generative.jpg',
+  alt: 'International container cargo ship at harbor',
+};
+
 export const TRADE_METRICS = [
   { value: '05', label: 'Core Export Lines' },
   { value: '28+', label: 'Destination Ports' },

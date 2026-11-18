@@ -6,10 +6,12 @@ import { ProductCatalog } from './components/ProductCatalog';
 import { ResilientImage } from './components/ResilientImage';
 import {
   ABOUT_IMAGE,
+  ABOUT_BG_IMAGE,
   buildWhatsAppUrl,
   CAPABILITY_PILLARS,
   COMPANY_INFO,
   HERO_IMAGE,
+  HERO_BG_IMAGE,
   TabId,
   TRADE_METRICS,
   TradeProduct,
@@ -75,9 +77,15 @@ export default function App() {
         <section
           id="home"
           aria-labelledby="hero-heading"
-          className="bg-white pt-10 pb-14 lg:pt-14 lg:pb-16"
+          className="relative bg-white pt-10 pb-14 lg:pt-14 lg:pb-16 overflow-hidden"
         >
-          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url('${HERO_BG_IMAGE.src}')` }}
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-white/80" aria-hidden="true" />
+          <div className="relative max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
               <div className="lg:col-span-6 flex flex-col justify-center py-2">
                 <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-slate-600 mb-4">
@@ -150,9 +158,15 @@ export default function App() {
         <section
           id="about"
           aria-labelledby="about-heading"
-          className="py-20 bg-white border-t border-slate-200"
+          className="relative py-20 border-t border-slate-200 overflow-hidden"
         >
-          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url('${ABOUT_BG_IMAGE.src}')` }}
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-white/85" aria-hidden="true" />
+          <div className="relative max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-stretch">
               <div className="lg:col-span-5">
                 <div className="w-full h-72 sm:h-88 lg:h-full min-h-[360px] rounded-xl overflow-hidden border border-slate-200 bg-slate-100">
