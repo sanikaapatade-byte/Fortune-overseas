@@ -15,6 +15,8 @@ const CATEGORIES: ProductCategory[] = [
   'All',
   'Hardware',
   'Vitamin & Pharma',
+  'Food Additive',
+  'Industrial Grade',
 ];
 
 export function ProductCatalog({ onBuyNow }: ProductCatalogProps) {

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {
   Check,
   Copy,
+  Mail,
   MapPin,
   MessageCircle,
   Phone,
@@ -113,6 +114,23 @@ export function ContactSection({
                         </>
                       )}
                     </button>
+                  </div>
+                </div>
+
+                {/* Email Block */}
+                <div className="flex items-start gap-3.5">
+                  <div className="w-10 h-10 rounded-lg bg-white/10 border border-white/20 flex items-center justify-center shrink-0 text-blue-400">
+                    <Mail className="w-5 h-5" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                      Email Us
+                    </p>
+                    <div className="mt-1 space-y-1">
+                      <a href="mailto:info@fortuneoverseas.co.in" className="block text-sm font-medium text-white hover:text-blue-300 transition-colors">info@fortuneoverseas.co.in</a>
+                      <a href="mailto:sales@fortuneoverseas.co.in" className="block text-sm font-medium text-white hover:text-blue-300 transition-colors">sales@fortuneoverseas.co.in</a>
+                      <a href="mailto:vipul@fortuneoverseas.co.in" className="block text-sm font-medium text-white hover:text-blue-300 transition-colors">vipul@fortuneoverseas.co.in</a>
+                    </div>
                   </div>
                 </div>
 
