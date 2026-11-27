@@ -386,8 +386,8 @@ export const PRODUCTS: TradeProduct[] = [
     fobPrice: 'On Request',
     packaging: '25 kg Bags',
     description: 'Food and pharma grade Citric Acid Anhydrous for beverages, preservatives and supplements.',
-    image: '/src/assets/images/Food%20addictive%20products/Citric Acid Anhydrous.jpg',
-    imageAlt: 'Citric Acid Anhydrous',
+    image: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&q=80',
+    imageAlt: 'Citric Acid Anhydrous white crystalline powder',
   },
   {
     id: 'citric-acid-monohydrate',
@@ -399,8 +399,8 @@ export const PRODUCTS: TradeProduct[] = [
     fobPrice: 'On Request',
     packaging: '25 kg Bags',
     description: 'Citric Acid Monohydrate for food processing, pharmaceutical and industrial applications.',
-    image: '/src/assets/images/Food%20addictive%20products/citric Acid Monohydrate.jpg',
-    imageAlt: 'Citric Acid Monohydrate',
+    image: '/src/assets/images/Food%20addictive%20products/citric-acid-monohydrate.jpg',
+    imageAlt: 'Citric Acid Monohydrate white crystalline powder',
   },
   {
     id: 'msg',
@@ -412,8 +412,8 @@ export const PRODUCTS: TradeProduct[] = [
     fobPrice: 'On Request',
     packaging: '25 kg Bags',
     description: 'Food grade MSG flavor enhancer for food processing and seasoning industries.',
-    image: '/src/assets/images/Food%20addictive%20products/MSG.jpg',
-    imageAlt: 'Monosodium Glutamate MSG',
+    image: '/src/assets/images/Food%20addictive%20products/msg-monosodium-glutamate.jpg',
+    imageAlt: 'MSG Monosodium Glutamate powder',
   },
   {
     id: 'xanthan-gum',
@@ -425,8 +425,8 @@ export const PRODUCTS: TradeProduct[] = [
     fobPrice: 'On Request',
     packaging: '25 kg Bags',
     description: 'Food and industrial grade Xanthan Gum as thickener, stabilizer and emulsifier.',
-    image: '/src/assets/images/Food%20addictive%20products/Xanthan Gum.jpg',
-    imageAlt: 'Xanthan Gum',
+    image: '/src/assets/images/Food%20addictive%20products/xanthan-gum.jpg',
+    imageAlt: 'Xanthan Gum white powder',
   },
   // Industrial Grade
   {

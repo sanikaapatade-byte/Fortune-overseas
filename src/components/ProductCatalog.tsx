@@ -32,9 +32,16 @@ export function ProductCatalog({ onBuyNow }: ProductCatalogProps) {
     <section
       id="product"
       aria-labelledby="products-heading"
-      className="py-20 bg-slate-50 border-t border-slate-200"
+      className="relative py-20 border-t border-slate-200 overflow-hidden"
     >
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Trading background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1600&q=80')` }}
+        aria-hidden="true"
+      />
+      <div className="absolute inset-0 bg-slate-50/92" aria-hidden="true" />
+      <div className="relative max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold tracking-wider text-blue-700 uppercase mb-2">
