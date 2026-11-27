@@ -13,9 +13,8 @@ interface ProductCatalogProps {
 
 const CATEGORIES: ProductCategory[] = [
   'All',
-  'Agro & Spices',
-  'Industrial',
-  'Textiles',
+  'Hardware',
+  'Vitamin & Pharma',
 ];
 
 export function ProductCatalog({ onBuyNow }: ProductCatalogProps) {
@@ -37,16 +36,16 @@ export function ProductCatalog({ onBuyNow }: ProductCatalogProps) {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold tracking-wider text-blue-700 uppercase mb-2">
-              Export &amp; Import Catalog
+              Product Catalog
             </p>
             <h2
               id="products-heading"
               className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 [text-wrap:balance]"
             >
-              Five specialized product lines ready for container dispatch
+              Hardware &amp; Pharma products for domestic &amp; global export
             </h2>
             <p className="mt-3 text-base text-slate-600 leading-relaxed">
-              Select any commodity or industrial component below and click Buy Now to proceed directly to our Pune trade desk and WhatsApp contact details.
+              Browse our full range of security hardware and pharmaceutical-grade vitamins &amp; chemicals. Available for PAN India supply and international export orders.
             </p>
           </div>
 
@@ -71,7 +70,7 @@ export function ProductCatalog({ onBuyNow }: ProductCatalogProps) {
                       : 'text-slate-600 hover:text-slate-900'
                   }`}
                 >
-                  {category === 'All' ? 'All Products (5)' : category}
+                  {category === 'All' ? `All Products (${PRODUCTS.length})` : category}
                 </button>
               );
             })}

@@ -90,7 +90,7 @@ export default function App() {
               <div className="lg:col-span-6 flex flex-col justify-center py-2">
                 <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-slate-600 mb-4">
                   <span className="text-blue-700 font-semibold">
-                    Import &amp; Export House
+                    Domestic &amp; International Trade
                   </span>
                   <span aria-hidden="true">·</span>
                   <span>{COMPANY_INFO.addressLine1}, Pune</span>
@@ -101,11 +101,11 @@ export default function App() {
                   className="font-display font-extrabold tracking-tight text-slate-900 leading-[1.08] [text-wrap:balance]"
                   style={{ fontSize: 'clamp(2.25rem, 4vw, 3.5rem)' }}
                 >
-                  Direct Indian exports &amp; global trade fulfillment
+                  Hardware &amp; Pharma trading — domestic supply &amp; global export
                 </h1>
 
                 <p className="mt-5 text-base sm:text-lg text-slate-600 leading-relaxed max-w-[54ch]">
-                  Fortune Overseas sources, inspects, and ships Basmati rice, whole spices, organic cotton textiles, dehydrated ingredients, and CNC brass valves from Pune to commercial buyers worldwide.
+                  Fortune Overseas supplies security hardware and pharmaceutical-grade vitamins &amp; chemicals across India and to international buyers — backed by reliable sourcing, documentation and logistics.
                 </p>
 
                 <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -114,7 +114,7 @@ export default function App() {
                     onClick={() => navigateToSection('product')}
                     className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-white bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors duration-150 whitespace-nowrap shrink-0 cursor-pointer min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-700 focus-visible:ring-offset-2"
                   >
-                    <span>Explore 5 Products</span>
+                    <span>Explore Products</span>
                     <ArrowRight className="w-4 h-4" />
                   </button>
 
@@ -123,7 +123,7 @@ export default function App() {
                     onClick={() => navigateToSection('contact')}
                     className="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors duration-150 whitespace-nowrap shrink-0 cursor-pointer min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900"
                   >
-                    <span>Contact Pune Desk</span>
+                    <span>Contact Trade Desk</span>
                   </button>
                 </div>
               </div>
@@ -187,10 +187,10 @@ export default function App() {
                   id="about-heading"
                   className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 [text-wrap:balance]"
                 >
-                  Headquartered in Pimpri-Chinchwad, built for global supply chains
+                  Pune-based trading company — hardware, pharma &amp; global logistics
                 </h2>
                 <p className="mt-4 text-base text-slate-600 leading-relaxed">
-                  Operating from <span className="font-semibold text-slate-900">{COMPANY_INFO.fullAddress}</span>, Fortune Overseas bridges Indian producers and manufacturers with importers across the Middle East, Europe, Southeast Asia, and North America. Our strategic location on the Pune–Mumbai logistics corridor ensures rapid container consolidation through {COMPANY_INFO.portAccess}.
+                  Operating from <span className="font-semibold text-slate-900">{COMPANY_INFO.fullAddress}</span>, Fortune Overseas serves both domestic and international markets. We supply security hardware and pharmaceutical-grade chemicals to dealers across India, while also managing import/export operations for global buyers through Mumbai and JNPT corridors.
                 </p>
 
                 <div className="mt-8 divide-y divide-slate-200 border-t border-b border-slate-200">
@@ -235,7 +235,7 @@ export default function App() {
                 {COMPANY_INFO.brandName}
               </p>
               <p className="mt-2 text-sm text-slate-400 max-w-sm leading-relaxed">
-                Import and export trading partner delivering agricultural commodities, textiles, and precision-machined industrial hardware worldwide.
+                Domestic and international trading partner supplying security hardware and pharmaceutical-grade vitamins &amp; chemicals across India and worldwide.
               </p>
             </div>
 

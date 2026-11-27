@@ -57,10 +57,10 @@ export function ContactSection({
             id="contact-heading"
             className="text-3xl sm:text-4xl font-bold tracking-tight text-white [text-wrap:balance]"
           >
-            Connect with Fortune Overseas for direct trade &amp; export orders
+            Get in touch for trade inquiries &amp; product sourcing
           </h2>
           <p className="mt-3 text-base text-slate-300 leading-relaxed">
-            Reach our Pune headquarters directly via WhatsApp or submit your product purchase inquiry below for an itemized FOB/CIF proforma invoice.
+            Reach our Pune trade desk directly via WhatsApp for domestic orders, import/export quotes or bulk sourcing inquiries.
           </p>
         </div>
 
